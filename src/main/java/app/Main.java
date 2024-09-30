@@ -14,5 +14,10 @@ public class Main {
         ce = (fa -32 ) / 1.8;
         System.out.println(ce);
 
+        System.out.println("Конвертація цельсіїв в фаренгейти");
+        System.out.println("Введіть температуру в цельсіях:" );
+        ce = scanner.nextDouble();
+        fa= ce* 1.8 +32;
+        System.out.println(fa);
         }
 }
